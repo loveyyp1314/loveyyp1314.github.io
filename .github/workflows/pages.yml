@@ -1,10 +1,8 @@
 name: Pages
- 
 on:
   push:
     branches:
       - main
- 
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,15 +17,16 @@ jobs:
         with:
           # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
           # Ref: https://github.com/actions/setup-node#supported-version-syntax
-          node-version: "23.11.1"
+          node-version: "23.11.1" # 注意：这里建议使用 LTS 版本如 "20" 或 "18"
       - name: Cache NPM dependencies
         uses: actions/cache@v4
         with:
           path: node_modules
-          key: ${{ runner.OS }}-npm-cache
+          key: ${{ runner.OS }}-npm-cache-${{ hashFiles('**/package-lock.json') }} # 建议加上 hashFiles
           restore-keys: |
-            ${{ runner.OS }}-npm-cache
-       - name: Install Dependencies
+            ${{ runner.OS }}-npm-cache-
+      # 修正：将这一整个块向右移动，让'-'对齐
+      - name: Install Dependencies
         run: npm install
       - name: Build
         run: npm run build
