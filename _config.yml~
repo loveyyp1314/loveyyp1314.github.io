@@ -103,4 +103,4 @@ theme: anzhiyu
 deploy:
   type: git
   repo: git@github.com:loveyyp1314/loveyyp1314.github.io.git
-  branch: main
+  branch: lihe
