@@ -1,0 +1,5 @@
+---
+title: about
+date: 2025-06-27 12:46:29
+type: "about"
+---
