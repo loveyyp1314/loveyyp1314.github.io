@@ -1,6 +1,6 @@
 baseURL = "https://loveyyp1314.github.io/"
 defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 staticDir = ["static", "themes/Niello/static"]
 
