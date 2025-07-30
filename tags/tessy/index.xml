@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on {CodeTrace} - Discover Issues, Share Solutions.</title><link>https://loveyyp1314.github.io/posts/</link><description>Recent content in Posts on {CodeTrace} - Discover Issues, Share Solutions.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 30 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://loveyyp1314.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Tessy介绍</title><link>https://loveyyp1314.github.io/posts/lihe/</link><pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate><guid>https://loveyyp1314.github.io/posts/lihe/</guid><description>&lt;p>&lt;strong>产品概述&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tessy on {CodeTrace} - Discover Issues, Share Solutions.</title><link>https://loveyyp1314.github.io/tags/tessy/</link><description>Recent content in Tessy on {CodeTrace} - Discover Issues, Share Solutions.</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 30 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://loveyyp1314.github.io/tags/tessy/index.xml" rel="self" type="application/rss+xml"/><item><title>Tessy介绍</title><link>https://loveyyp1314.github.io/posts/lihe/</link><pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate><guid>https://loveyyp1314.github.io/posts/lihe/</guid><description>&lt;p>&lt;strong>产品概述&lt;/strong>&lt;/p>
 &lt;p>Tessy源自戴姆勒—奔驰公司的软件技术实验室，由德国Hitex公司负责销售及技术的支持服务，是一款专门针对嵌入式软件进行单元/集成测试的工具。它可以对C/C++代码进行单元、集成测试，可以自动化搭建测试环境、执行测试、评估测试结果并生成测试报告，其多样化的测试用例导入生成方式和与测试需求关联的特色，使Tessy在测试组织和测试管理上也发挥了良好的作用。目前Tessy被广泛应用在汽车电子客户中。
 &lt;strong>产品介绍&lt;/strong>&lt;/p>
 &lt;ul>
@@ -54,4 +54,4 @@
 &lt;/ul>
 &lt;p>&lt;img src="https://img2024.cnblogs.com/blog/1736515/202401/1736515-20240115145252423-1406918416.jpg" alt="">&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title/><link>https://loveyyp1314.github.io/posts/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://loveyyp1314.github.io/posts/test/</guid><description>&lt;p>Hello World !&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
