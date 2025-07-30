@@ -10,7 +10,7 @@ theme = "Niello"
 	[languages.en]
 		languageCode = "en-us"
 		LanguageName = "🇺🇸EN"
-		contentDir = "content/en"
+		contentDir = "content/en/posts"
 		weight = 1
 		[[languages.en.menus.main]]
 			name = 'Home'
