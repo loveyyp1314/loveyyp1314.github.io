@@ -1,64 +1,51 @@
 baseURL = "https://loveyyp1314.github.io/"
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
-
-staticDir = ["static", "themes/Niello/static"]
-
+# 将 title 直接放在顶层
+title = "{CodeTrace} - Discover Issues, Share Solutions."
+# 设置默认语言
+languageCode = "en-us"
+# 主题和静态目录保持不变
 theme = "Niello"
+staticDir = ["themes/Niello/static", "static"]
 
-[languages]
-	[languages.en]
-		languageCode = "en-us"
-		LanguageName = "🇺🇸EN"
-		contentDir = "content/en"
-		weight = 1
-		[[languages.en.menus.main]]
-			name = 'Home'
-			pageRef = '/'
-			weight = 1
-		[[languages.en.menus.main]]
-			name = 'Categories'
-			pageRef = '/categories'
-			weight = 2
-		[[languages.en.menus.main]]
-			name = 'Tags'
-			pageRef = '/tags'
-			weight = 3
-	[languages.zh]
-        languageCode = "zh-cn"
-        LanguageName = "🇨🇳CN"
-        contentDir = "content/zh"
-        weight = 2
-		[[languages.zh.menus.main]]
-			name = 'example首页'
-			pageRef = '/'
-			weight = 1
-		[[languages.zh.menus.main]]
-			name = 'example文章分类'
-			pageRef = '/categories'
-			weight = 2
-		[[languages.zh.menus.main]]
-			name = 'example标签'
-			pageRef = '/tags'
-			weight = 3
+# 删除了整个 [languages] 部分！
 
+# 将菜单简化为单语言模式
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 1
+[[menu.main]]
+  name = 'Categories'
+  pageRef = '/categories'
+  weight = 2
+[[menu.main]]
+  name = 'Tags'
+  pageRef = '/tags'
+  weight = 3
+[[menu.main]]
+  name = 'Contact'
+  pageRef = '/contact'
+  weight = 4
+
+# params 部分保持不变
 [params]
 [params.google]
-	google_ad_client = "******"
-	ga4 = "******"
+google_ad_client = "ca-pub-******"
+ga4 = "G-******"
 [params.bannershowcase]
-	categories = ["Design"]
-	limit = 2
+categories = ["AI"]
+limit = 2
 [params.email]
-	contact = "angularcorp@outlook.com"
+contact = "angularcorp@outlook.com"
 [params.ignore]
-	categories = ["privacy", "terms", "archives", "cookie"]
+categories = ["privacy", "terms", "archives", "cookie"]
 [params.license]
-	copyright = "&#xA9; 2019 ~ 2025 by <a href='https://www.angularcorp.com/'>www.angularcorp.com</a> All Rights Reserved."
+copyright = "&#xA9; 2019 ~ 2025 by guangmean. All Rights Reserved."
 [params.share]
-	sharethis = "******"
+sharethis = "******"
 [params.disqus]
-	shortname = "guangmean"
+shortname = "******"
 
 [outputs]
-  home = ["HTML", "JSON"]   # Optional - JSON just for search
+  home = ["HTML", "JSON"]
